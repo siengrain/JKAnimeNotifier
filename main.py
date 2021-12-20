@@ -31,8 +31,7 @@ while True:
     online = isItUp(anime)
     if online == 1:
         n = notify2.Notification("Hiii" ,
-            anime + " is up on JKanime",
-            "/home/siengrain/Stuff/aFlvNot/icon/sup.ico"   # Icon name
+            anime + " is up on JKanime"
             )
         n.show()
         link = link + linkObtainer(anime)+'/'+ep+'/'
